@@ -1,0 +1,6 @@
+<Mod
+	name="Respectfully Randomized Probabilities"
+	description="Randomizes spell spawn probabilites, but only for spells you have progress on."
+	request_no_api_restrictions="0" 
+> 
+</Mod>
