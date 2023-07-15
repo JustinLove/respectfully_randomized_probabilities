@@ -7,7 +7,7 @@ for i = 1,#actions do
 end
 for i = 1,#actions do
 	local action = actions[i]
-	if action.spawn_probability == "0" or HasFlagPersistent('action_'..string.lower(action.id)) then
+	if action.spawn_probability == "0" or not HasFlagPersistent('action_'..string.lower(action.id)) then
 		-- do nothing
 	else
 		local copy = Random(1,#levels)
